@@ -1,0 +1,127 @@
+header{
+    background-color: #eb2263;
+    padding: 1px 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+nav {
+    background: #2c2c2c;
+    color:#ffff;
+    font-weight: 700;
+    min-width:100%;
+}
+    
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+    
+nav ul li {
+    display:inline-block;
+    float:none;
+    white-space:nowrap;
+}
+    
+nav a {
+     display:block;
+     padding:0 10px;
+     color:#ffff;
+     font-size:20px;
+     line-height:30px;
+     text-decoration:none;
+}
+    
+nav a:hover {
+     color:#FFF;
+     border-radius: 20px;
+     background-color:#2c2c2c;
+     transition: all .3s ease;
+}
+    
+nav ul ul {
+    color:#2c2c2c;
+    display:none;
+    position:absolute;
+    top:100%;
+}
+    
+nav ul li:hover > ul {
+    display:inherit;
+    transition: all .3s ease;
+}
+    
+nav ul ul li {
+    min-width:170px;
+    position:relative;
+}
+    
+nav ul ul ul {
+    position:absolute;
+    top:1.8rem;
+    left:0;
+}
+
+section{
+    float: left;
+    width:70%;
+    background-color:#efefef;
+}
+
+section article h1 {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+section article p {
+    padding: 20px;
+    text-align: justify;
+}
+
+section article li {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+section article h6 {
+    padding: 20px;
+    text-align: justify;
+}
+
+.imagen_principal {
+    text-align: center;
+}
+
+.imagen_principal img {
+    border-radius: 12px;
+    width: 50%;
+}
+
+aside{
+    float: left;
+    width:30%;
+    background-color:burlywood ;
+}
+footer{
+    background-color: burlywood;
+    padding: 10px;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
